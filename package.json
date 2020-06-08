@@ -1,0 +1,17 @@
+{
+  "name": "atabox",
+  "version": "1.0.0",
+  "description": "single page site for cardboard coffins",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css": "node-sass scss/style.scss -o css",
+    "css:watch": "node-sass scss/style.scss -wo css"
+  },
+  "author": "Martín Lecaros",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.14.1",
+    "nodemon": "^2.0.4"
+  }
+}
